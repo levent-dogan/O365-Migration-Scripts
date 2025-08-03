@@ -1,0 +1,32 @@
+# ─── PowerShell Repo Ignore ─────────────────────────
+# Windows junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# PowerShell build artifacts
+*.psd1.xml
+*.psm1.xml
+
+# Logs & temp
+*.log
+*.err
+*.retry
+*.bak
+*.tmp
+
+# Migration CSVs (sample kept, real data ignored)
+Users-To-Migrate.csv
+!Samples/Users-To-Migrate.sample.csv
+
+# PowerShell Gallery modules downloaded locally
+Modules/
+
+# Secrets
+*.pfx
+*.snk
+*.cer
+secrets.json
